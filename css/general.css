@@ -89,14 +89,17 @@ body {
     letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link, 
 .btn:visited {
     display: inline-block;
     font-size: 2rem;
     font-weight: 600;
+    font-family: inherit;
+    font-size: 2rem;
     color: var(--white);
     text-decoration: none;
-    font-size: 2rem;
+    cursor: pointer;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
     transition: all 0.3s ease-in;
@@ -123,6 +126,19 @@ body {
     background-color: var(--lighter-orange-background);
     /* border: solid 3px var(--white); */
     box-shadow: inset 0 0 0 3px var(--white);
+}
+
+.btn--form {
+    color: var(--lighter-orange-background);
+    border: none;
+    background-color: var(--brown); 
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover {
+    background-color: var(--white);
+    color: var(--grey) !important;
 }
 
 .link:link,
@@ -182,4 +198,11 @@ strong {
 
 .list-icon--x {
     color: var(--red);
+}
+
+*:focus {
+    outline: none;
+    /* outline: 4px dotted var(--darker-orange-background);
+    outline-offset: 8px; */
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.664);
 }
