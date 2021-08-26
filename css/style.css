@@ -8,6 +8,7 @@
     background-color: var(--lighter-orange-background);
     height: 9.6rem;
     padding: 0 4.8rem;
+    position: relative;
 }
 
 .logo {
@@ -19,7 +20,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 3.2rem;
+    gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -49,6 +50,26 @@
 .main-nav-link.nav-cta:active {
     background-color: var(--darker-orange-background);
 }
+
+/* MOBILE NAVIGATION */
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: var(--medium-grey);
+}
+
+/*pega um elemento pelo atributo name*/
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+}
+
 
 /* HERO SECTION */
 
@@ -363,7 +384,7 @@
     overflow: hidden;
 }
 
-.pricing-plan--complete::after {
+/* .pricing-plan--complete::after {
   content: "Best value";
   position: absolute;
   top: 7%;
@@ -375,7 +396,7 @@
   color: var(--white);
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
-}
+} */
 
 .plan-header {
     text-align: center;
