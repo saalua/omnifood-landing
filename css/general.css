@@ -12,6 +12,7 @@ html {
     /*percentage of user's browser font-size settings */
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -164,7 +165,6 @@ body {
 }
 
 /*HELPER CLASSES*/
-
 .margin-right-sm {
     margin-right: 1.6em !important;
 }
