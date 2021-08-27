@@ -125,11 +125,10 @@
         width: 100%;
         height: 100vh;
         transform: translateX(100%);
-
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: all 5s ease-in;
+        transition: all 0.5s ease-in;
 
         /* display não permite usar transição, por isso o opacity fica melhor aqui*/
         /*Aqui o problema é só esconde a visualização, mas ainda podemos clicar nas coisas nao visíveis*/
