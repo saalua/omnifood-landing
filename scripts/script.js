@@ -1,6 +1,6 @@
 const $menuBtn = document.querySelector('.btn-mobile-nav');
 const $header = document.querySelector('.header');
-const $sectionHero = document.querySelector('.section-hero')
+const $sectionHero = document.querySelector('.section-hero');
 
 /* Nav menu */
 $menuBtn.addEventListener('click', () => {
